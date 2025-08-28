@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+
+  background-color: #e0f2ff;
+  color: #333;
+}
+
+h1 {
+  font-family: 'DhCario', serif;
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: #a96b8a;
+}
+
+h2, h3 {
+  font-family: 'Borel', serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #a96b8a;
+}
+
+.main-title {
+    font-family: 'Bungee Inline', Arial, sans-serif;
+    font-size: 80px;
+    color: #FF66CC; /* Keep your pink color */
+    text-align: center;
+}
+
+.intro-text {
+    display: block;          
+    max-width: 800px;        
+    text-align: center;      
+    font-size: 1.25rem;      
+    line-height: 1.6;        
+    margin: 60px auto 40px;  /* 60px top pushes it further down */
+    color: #02033b
+}
+
+.subheader {
+    font-size: 1.75rem;  /* larger than body text */
+    font-weight: bold;
+    display: block;      /* ensures it starts on a new line */
+    margin-top: 1rem;    /* spacing above */
+    margin-bottom: 0.5rem; /* spacing below */
+}
+
+.question {
+    font-weight: bold;
+    display: block;  /* ensures it starts on a new line */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;  /* slightly larger than body text */
+}
+
+.question-icon {
+    width: 100px;   /* Set the desired width */
+    height: 100px;  /* Set the desired height */
+    vertical-align: middle; /* aligns with text if inline */
+    margin-bottom: 0.5rem;  /* spacing if above text */
+}
+ul.socials {
+  list-style: none;       /* remove bullets */
+  display: flex;          /* align items horizontally */
+  justify-content: center; /* center the icons horizontally */
+  padding: 0;
+  margin: 0 auto;         /* center the UL itself */
+  gap: 10px;              /* spacing between icons */
+}
+li.social {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 100%;       /* now constrained by li.social */
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.video-row {
+  display: flex;
+  justify-content: center; /* centers the row */
+  gap: 10px;               /* space between videos */
+  flex-wrap: wrap;          /* wraps to new line on small screens */
+}
+
+.small-video {
+  width: 200px;
+  height: auto;
+  pointer-events: none; /* prevents mouse interaction */
+}
