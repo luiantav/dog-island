@@ -59,6 +59,7 @@ h2, h3 {
     height: 100px;  /* Set the desired height */
     vertical-align: middle; /* aligns with text if inline */
     margin-bottom: 0.5rem;  /* spacing if above text */
+    background-color: transparent; 
 }
 ul.socials {
   list-style: none;       /* remove bullets */
@@ -98,4 +99,8 @@ li.social {
   width: 200px;
   height: auto;
   pointer-events: none; /* prevents mouse interaction */
+}
+
+.brand {
+    display: none;
 }
